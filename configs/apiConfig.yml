@@ -1,0 +1,22 @@
+Login:
+  login:
+    method: POST
+    path: /account/sLogin
+
+  logout:
+    method: POST
+    path: /account/sLout
+
+Shop:
+  query:
+    method: GET
+    path: /shopping/myShop
+
+  update:
+    method: POST
+    path: /shopping/updatemyshop
+
+  file_upload:
+    method: POST
+    path: /file
+

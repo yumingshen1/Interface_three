@@ -1,0 +1,16 @@
+-
+  detail: 正常登陆
+  data:
+    username: xxx
+    password: xxx
+  resp:
+    code: 200
+    msg: 登陆成功
+-
+  detail: 密码错误
+  data:
+    username: xxx
+    password: xxx1
+  resp:
+    code: 999
+    msg: 密码错误
